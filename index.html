@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Assignment TODO List</title>
+
+  <link rel="stylesheet" href="./styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script defer type="module" src="./index.js"></script>
+  <script type="module" src="./api-client.js"></script>
+  <script type="module" src="./Helpers/apiCalls.js"></script>
+</head>
+
+<body>
+  <div class="main-container">
+
+    <h1>ToDo List</h1>
+
+    <div class="user-interface-container">
+      <form id="task-form">
+        <input type="text" placeholder="Task name" class="task-name-field" required="true">
+        <input type="submit" class="task-name-submit" value="Add task">
+      </form>
+    </div>
+
+    <div class="task-list-container">
+    </div>
+
+
+
+  </div>
+</body>
+
+</html>
